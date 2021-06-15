@@ -1,0 +1,29 @@
+.exemplo{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px
+}
+
+.exemplo1 p.red{ /* somente parágrafos com a tag 'red' vão ficar vermelhos. Mesmo que outra tag tenha a class 'red', ela n vai ficar vermelha*, se chama COMBINADORES  */
+    color: red;
+}
+
+.margin{
+    margin: 50px;
+}
+
+h1, h2, h3{ /* podes colocar estilo em várias Tag, ou classes: .class1, .class2, .class3... */
+    color: blue
+}
+
+.exemplo2 > p{ /* o símbolo '>' após a classe quer dizer que ela vai se aplicar às tags "p" filhos*/
+    color: green;
+}
+
+.exemplo3 + p { /* o símbolo '+' após a classe quer dizer que ela vai se aplicar à primeira tag "p" irmã*/
+    color: red;
+}
+
+.exemplo4 ~ p{ /* o símbolo de '~' após a classe quer dizer que ela vai se aplicar à todas as tags "p" irmã*/
+    color: green
+}

@@ -1,0 +1,24 @@
+h1::before{
+    background: url(http://simpleicon.com/wp-content/uploads/rocket.png);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    content: "";
+} /* essa é a estrutura para colocar algo atrás de um elemento*/
+
+h1::after{
+    background: url(http://simpleicon.com/wp-content/uploads/rocket.png);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    content: "";
+} /* essa é a estrutura para colocar algo depois     de um elemento*/
+
+::selection{
+    color: tomato;
+    background-color: black;
+}
+
+/* selection faz com que tudo que tu selecione fique dessa cor*/ 

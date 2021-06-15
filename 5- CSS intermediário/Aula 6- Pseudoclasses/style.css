@@ -1,0 +1,9 @@
+a{
+    color: tomato;
+}
+
+a:hover{ /* um tipo de pseudoclasse, quando o usuário colocar o mouse, muda. TAG ou CLASSE + : */
+    color: yellowgreen;
+    font-weight: bold;
+}
+

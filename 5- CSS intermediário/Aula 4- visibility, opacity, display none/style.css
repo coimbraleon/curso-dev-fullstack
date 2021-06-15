@@ -1,0 +1,18 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    background-color: gray;
+    opacity: 0.5; /*display:none tira da tela um elemento, deixando o espaço livre, visibility:hidden o elemento continua lá, mas invisível, ocupando espaço*/
+    /* 0 até 1*/
+
+}
+
+ul li{
+    margin: 20px;
+}

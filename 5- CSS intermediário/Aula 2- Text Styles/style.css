@@ -1,0 +1,21 @@
+h1{
+    text-shadow: 2px 2px 20px black; 
+}
+
+p{
+    color: green;
+    font-size: 30px;
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+    /* font-variant: small-caps; nem todas têm variantes*/
+    text-transform: uppercase; /* tudo minúscula */
+    text-indent: 50px; /*primeira linha indentação*/
+    word-spacing: 10px;
+    line-height: 100px;  
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 20px;
+}

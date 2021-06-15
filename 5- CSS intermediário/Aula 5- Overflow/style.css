@@ -1,0 +1,7 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    overflow: auto; /* toda cor que "fugir" da caixinha, o overflow tem funcionalidades pra resolver
+}
+

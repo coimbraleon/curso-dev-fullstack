@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: rgb(70, 16, 170);
+    background: -moz-linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(117,24,214,1) 100%);
+    background: -webkit-linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(117,24,214,1) 100%);
+    background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(117,24,214,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#7518d6",GradientType=1);
+    /* podes colocar height 100%: html, body{ height 100%} */
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar{
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 18px white;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons img{
+    width: 33px;
+}
+
+.icons{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px;
+}
+
+.links-list{
+    list-style: none;
+}
+
+.links-list li{
+    background-color: white;
+    margin: 10px 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px white;
+}
+
+.links-list li a{
+    display: block;
+    color:rgb(70, 16, 170);
+    text-decoration: none;
+    font-weight:bold;
+    
+}
+
+.links-list li a span{
+    display: block;
+    margin-top: 10px;
+    color: rgb(136, 136, 136);
+}
