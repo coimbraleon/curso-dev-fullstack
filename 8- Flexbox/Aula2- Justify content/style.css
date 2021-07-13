@@ -1,0 +1,28 @@
+.container{
+  background: silver;
+  display: flex; /* por padrão, o display flex coloca todos em row, em linha, é o padrão. Com o display flex, eles obedecem o tamanho da caixa, não importa o tamanho total deles, sem flex, o padrão é column */
+   /* o flex dá flexibilidade para tua página, mesmo que o column tenha o mesmo efeito de block, um embaixo do outro */
+  flex-direction:row;
+  justify-content: space-between; /* o justify content vai mexer nos itens de acordo com a direção do flex, ao contrário do align itens */
+}
+
+.caixa{
+  width: 100px;
+  height: 100px;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
