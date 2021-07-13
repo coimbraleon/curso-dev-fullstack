@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+
+    font-family: 'Lato', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex; /* Thiago, tentei de tudo pra centralizar a div, mas tive 
+    que pesquisar pra saber como colocava no meio da tela, sem o flex o container
+    fica bagunçado e sem o fundo.
+    Se puder me explicar se existe uma outra forma
+    mais simples de fazer isso, eu agradeço.*/
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.div{
+    margin: auto 670px; /* tentei deixar no auto conforme você falou em vídeo, porém o texto
+    da 'checkbox' ia expandindo da tela e aumentando o tamanho dos campos 'nome' e 'email' e 
+    ficando muito diferente do layout, por isso tive que delimitar as margens laterais, também gostaria
+    de saber se há outra forma de fazer deixando o margin auto */
+}
+
+.image{
+    width: 110px;
+}
+
+h1{
+    margin: 15px 0px;
+    font-size: 55px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.campo{
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    color: rgb(32, 31, 31);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.label{
+    font-size: 15px;  
+}
+
+.button{
+    background-color: rgb(32, 115, 240);
+    text-decoration: none;
+    border: none;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover{
+    background-color: rgb(32, 106, 226)
+}
+
+

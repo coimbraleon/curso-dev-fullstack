@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <form action="salvar.html" method="GET"> 
+     <!-- tag principal pra formulários, ela possui alguns atributos que serão vistos posteriormente-->
+     <!-- a propriedade action="" é para envio de dados para algum servidor, que será aprendido como fazer mais pra frente-->
+     <!-- Há dois métodos, o get manda os dados do enviar pra a url e o post, que ao invés de mandar os dados pelo http/url, ele manda os dados por outra forma -->
+    
+
+    <label>Nome:</label> <!-- A label fica antes da input, sendo uma tag semântica para definir o input-->
+
+    <input name="nome" type="text" placeholder="Digite o seu nome..."> <!-- Há vários tipos de campos, senhas, telefone, ele vai receber dados do tipo texto--> 
+    <!-- Name é um parâmetro que quer dizer o nome daquele campo, como observado abaixo, o nome você escolhe-->
+
+    <br><br> <!-- um ou mais 'br' pode ser colocado entre eles pra ficar um embaixo do outro-->
+    
+    <label>E-mail</label>
+    <input name="email" type="email" placeholder="Digite o seu email...">
+
+    <br><br>
+
+    <label>Senha</label>
+    <input name="senha" type='password' placeholder="Digita sua senha...">
+
+    <br><br>
+
+
+    <label>Digite teu mês atual</label>
+    <input type="month"> <!-- HTML Input Types no w3schools tem os tipos de input disponíveis-->
+
+    <button>Enviar</button>
+
+  </form>
+
+
+</body>
+</html>
